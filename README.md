@@ -1,20 +1,35 @@
 # Benchmark 1. "TemplateName"
 
-This is a template that details the content of a benchmark
+This is a template that details the expected Minimum Viable Content of a benchmark including the documentation and the data.
+
+## Introduction
+
+Write a short introduction of the benchmark that includes at least the following items:
+
+- Type of research (qualitative and/or quantitative)
+- Main discipline(s) it contributes to
+- The goal of the study (to understand or improve design)
+- The type of contribution (theory to knowledge or empirical to practice)
+- Objects to validate (theory, method, tool, process...)
+- Expected results
 
 ## Glossary
 
-To share a common undestanding of ambiguous concepts, contributors shall agree upon the following definitions:
+To share a common undestanding of ambiguous concepts, contributors shall agree upon meaning of the key concepts by systematically providing a definition and potential synonyms.
 - Concept1: Definition 1. 
 - Concept2: Definition 2.
 - ... 
 
-## Requirements
+## Goals
 
-Specify the requirements that the candidate solutions are intended to meet:
+Specify the common set of goals that the competing solutions pursue:
 - The solution shall enable to...
 - The solution shall enable to...
 - The solution shall enable to...
+
+# Solutions
+
+In the folder named [solutions](), you should collect the competing solutions.
 
 ## Measures of Performance
 - KPI X = définition
