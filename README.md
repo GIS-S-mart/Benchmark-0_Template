@@ -6,6 +6,8 @@ This is a template that details the expected Minimum Viable Content of a benchma
 
 ## Introduction
 
+*Guidelines:*
+
 Write a short introduction of the benchmark that includes at least the following items:
 
 - Type of research: does the benchmark intends to be qualitative and/or quantitative)
@@ -15,12 +17,19 @@ Write a short introduction of the benchmark that includes at least the following
 - Object(s) to validate (theory, method, tool, process...)
 - Expected results: does the benchmark aims a
 
+*Template:*
+
 ## Glossary
 
+*Guidelines:*
+
 To share a common understanding of ambiguous concepts, contributors shall agree upon the meaning of the key concepts by systematically providing a definition and potential synonyms. Participants should use existing terms and definitions from standards and not invent new ones, unless they have a very specific concept that requires the introduction of a new term and definition. Any new term and definition must be motivated and explained in the discussion of the repository (e.g. navigate to '*Repositories > Benchmark-0_Template > Discussions*', or [click here](https://github.com/GIS-S-mart/Benchmark-0_Template/discussions))
-- Concept_1 [Synonyms: ...]: Definition 1 (Source).
-- Concept_2 [Synonyms: ...]: Definition 2 (Source).
-- ... 
+
+*Template:*
+
+| **Concept** | **Synonyms** | **Definition** | **Source** |
+| :---------: | :----------: | :------------: | :--------: |
+|             |              |                |            |
 
 ## Goals
 
@@ -63,11 +72,24 @@ Benchmark problems are test cases that serve to evaluate rival solutions.
 
 ## Solutions
 
-In the folder named [solutions](), you should upload the competing solutions.
+*Guidelines:*
+
+*Template:*
+
+| **Name** | **Author(s)** | **Version** | **DOI** | **URL** | **License** |
+| :------: | :-----------: | :---------: | :-----: | :-----: | :---------: |
+|          |               |             |         |         |             |
 
 ## Benchmarking
 
+*Guidelines:*
+
+1. Professional practitioners should be able to determine which solution is better to employ in a specific context.
+2. 
+
 ![image-20221201092151688](images/image-20221201092151688.png)
+
+*Template:*
 
 ## Meta-Analysis
 
@@ -75,5 +97,9 @@ In the folder named [solutions](), you should upload the competing solutions.
 
 ## References
 
+*Guidelines:*
+
 - Please use the Harvard format to list references supporting any data (definition, solution, metrics, benchmark problem, etc.) of the benchmark.
 - Make sure to provide the DOI of the document.
+
+*Template:*
