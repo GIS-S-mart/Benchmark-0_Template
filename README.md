@@ -10,7 +10,7 @@ This is a template that details the expected Minimum Viable Content of a benchma
 
 Write a short introduction of the benchmark that includes at least the following items:
 
-- Type of research: does the benchmark intends to be qualitative and/or quantitative?
+- Type of research: Does the benchmark intend to be qualitative and/or quantitative?
 - The main discipline(s) it contributes to
 - The goal of the study (to understand and/or improve design)
 - The type of contribution (theory to knowledge and/or empirical to practice)
