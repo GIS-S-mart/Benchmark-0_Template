@@ -1,8 +1,8 @@
 # Benchmark 1. "TemplateName"
 
-This is a template that details the expected Minimum Viable Content of a benchmark. All minimum constitutive elements of a benchmark are formally defined in the meta-model below so as to share reproducible results.
+This template details the expected Minimum Viable Content of a benchmark. The meta-model below formally defines all minimum constitutive elements of a benchmark so as to share reproducible results.
 
-![image-20231022154230422](/images/image-20231022154230422.png)
+![image-20231022154230422](./Images/image-20231022154230422.png)
 
 ## Introduction
 
@@ -23,7 +23,7 @@ Write a short introduction of the benchmark that includes at least the following
 
 *Guidelines:*
 
-To share a common understanding of ambiguous keywords, contributors shall agree upon the meaning of the keywords by systematically providing a definition and synonyms. Contributors should reuse existing terms and definitions from existing standards and not invent new ones, unless they have a very specific concept that requires the introduction of a new keyword and definition. Any new keyword and definition must be motivated and explained in the discussion of the repository (e.g. navigate to '*Repositories > Benchmark-0_Template > Discussions*', or [click here](https://github.com/GIS-S-mart/Benchmark-0_Template/discussions))
+To share a common understanding of ambiguous keywords, contributors shall agree upon the meaning of the keywords by systematically providing a definition and synonyms. Contributors should reuse existing terms and definitions from existing standards and not invent new ones unless they have a very specific concept that requires the introduction of a new keyword and definition. Any new keyword and definition must be motivated and explained in the discussion of the repository (e.g. navigate to '*Repositories > Benchmark-0_Template > Discussions*' or [click here](https://github.com/GIS-S-mart/Benchmark-0_Template/discussions))
 
 *Template:*
 
@@ -40,14 +40,14 @@ Specify the common set of goals that the competing solutions pursue:
 
 ## Metrics
 
-Metrics are quantitative and/or qualitative performance indicator that measures the degree to which the articulated goals have been achieved.
+Metrics are quantitative and/or qualitative performance indicators that measure the degree to which the articulated goals have been achieved.
 
 *Guidelines:*
 
-1. The achievement of a given goal may be measured by one or more metrics.
+1. One or more metrics may measure the achievement of a given goal.
 2. Results must be quantitatively and not only qualitatively compared to the literature in a fair and transparent manner.
 3. Authors should use existing metrics and not invent new ones, unless they measure additional aspects not covered by existing ones.
-4. Any change to existing metrics must be motivated and explained in the discussion of the repository (e.g. navigate to '*Repositories > Benchmark-0_Template > Discussions*', or [click here](https://github.com/GIS-S-mart/Benchmark-0_Template/discussions). Once the suggested change is informally approved by the community, the author shall post on the issues page of the benchmark (e.g. navigate to '*Repositories > Benchmark-0_Template > Issues*', or [click here](https://github.com/GIS-S-mart/Benchmark-0_Template/issues)) and briefly outline the new metric.
+4. Any change to existing metrics must be motivated and explained in the repository discussion (e.g., navigate to 'Repositories > Benchmark-0_Template > Discussions', or click here). Once the suggested change is informally approved by the community, the author shall post on the benchmark's issues page (e.g., navigate to '*Repositories > Benchmark-0_Template > Issues*' or [click here](https://github.com/GIS-S-mart/Benchmark-0_Template/issues)) and briefly outline the new metric.
 
 *Template:*
 
@@ -63,11 +63,11 @@ Benchmark exercises are test cases that serve to evaluate rival solutions.
 
 1. A benchmark exercise is a representative example problem of the actual problem for which the solutions are intended.
 2. Authors should reuse existing benchmark exercises and not invent new ones, unless they have a very specific illustrative purpose not covered by existing ones.
-3. The lack of showing particular benchmark exercises in a manuscript says more than the benchmark exercises included in a manuscript.
-4. Any change to existing benchmark exercises must be motivated and explained in the discussion of the repository (e.g. navigate to '*Repositories > Benchmark-0_Template > Discussions*', or [click here](https://github.com/GIS-S-mart/Benchmark-0_Template/discussions). Once the suggested change is informally approved by the community, the author shall post on the issues page of the benchmark (e.g. navigate to *Repositories > Benchmark-0_Template > Issues*, or [click here](https://github.com/GIS-S-mart/Benchmark-0_Template/issues)) and briefly outline the new benchmark exercises.
-5. A benchmark exercise shall be stored on an open online repository (to be selected according to the type and size of the dataset, licensing, etc.) such as [Zenodo](https://zenodo.org/), [Recherche Data Gouv](https://entrepot.recherche.data.gouv.fr/dataverse/root), [Harvard Dataverse](https://dataverse.harvard.edu/), [4TU.ResearchData](https://data.4tu.nl/info/en/), [B2SHARE](https://eudat.eu/catalogue/B2SHARE), [B2DROP](https://eudat.eu/catalogue/B2DROP) with a preference for repositories such as [Zenodo](https://zenodo.org/) which creates a persistent identifier (DOI) for the repository. This helps for [referencing and citing a  GitHub repository](https://docs.github.com/fr/repositories/archiving-a-github-repository/referencing-and-citing-content).
+3. The lack of showing particular benchmark exercises in a manuscript says more than those included in a manuscript.
+4. Any change to existing benchmark exercises must be motivated and explained in the discussion of the repository (e.g. navigate to '*Repositories > Benchmark-0_Template > Discussions*' or [click here](https://github.com/GIS-S-mart/Benchmark-0_Template/discussions). Once the community informally approves the suggested change, the author shall post on the issues page of the benchmark (e.g. navigate to *Repositories > Benchmark-0_Template > Issues*, or [click here](https://github.com/GIS-S-mart/Benchmark-0_Template/issues)) and briefly outline the new benchmark exercises.
+5. A benchmark exercise shall be stored on an open online repository (to be selected according to the type and size of the dataset, licensing, etc.) such as [Zenodo](https://zenodo.org/), [Recherche Data Gouv](https://entrepot.recherche.data.gouv.fr/dataverse/root), [Harvard Dataverse](https://dataverse.harvard.edu/), [4TUandand.and ResearchData](https://data.4tu.nl/info/en/), [B2SHARE](https://eudat.eu/catalogue/B2SHARE), and [B2DROP](https://eudat.eu/catalogue/B2DROP) with a preference for repositories such as [Zenodo,](https://zenodo.org/) which creates a persistent identifier (DOI) for the repository. This helps for [referencing and citing a  GitHub repository](https://docs.github.com/fr/repositories/archiving-a-github-repository/referencing-and-citing-content).
 6. If the benchmark exercise is not stored in the benchmark GitHub repository, contributors should specify the hyperlink to the source.
-7. An existing benchmark exercise may be modified according to the feedback of members of the benchmark community. It is important to specify the version of the benchmark exercise in order to evaluate candidate solutions on the latest version.
+7. An existing benchmark exercise may be modified according to the feedback of members of the benchmark community. It is important to specify the version of the benchmark exercise so that candidate solutions can be evaluated using the latest version.
 
 *Template:*
 
@@ -82,11 +82,11 @@ A solution is a candidate theory, process, method, practice, [...], or software 
 *Guidelines:*
 
 1. It is imperative for good scientific practice that all results are reproducible.
-2. It is strongly recommended to publish the research material (e.g., software code - at least an executable file -, model, simulation, coding book, interviews,  statistics, raw data, observation voice/video recordings, etc.).
-3. The quantitative and/or qualitative metric serve as a a level of evidence which can be of four types:
+2. It is strongly recommended that the research material (e.g., software code—at least an executable file -, model, simulation, coding book, interviews, statistics, raw data, observation voice/video recordings, etc.) be published.
+3. The quantitative and/or qualitative metrics serve as a level of evidence which can be of four types:
    1. **Measured**: the benefit is measured through a measurement protocol.
    2. **Observed**: the benefit is noticed by the researcher(s) but is not measured through a measurement protocol.
-   3. **Perceived**: the benefit - claimed without evidence - is expected or perceived to be evident by the researcher(s) but the claim is not based on a measurement protocol.
+   3. **Perceived**: The benefit—claimed without evidence—is expected or perceived to be evident by the researcher(s), but the claim is not based on a measurement protocol.
    4. **Reference** to another source: the benefit is cited from another source.
 
 *Template:*
@@ -97,7 +97,7 @@ A solution is a candidate theory, process, method, practice, [...], or software 
 
 ## Measurement protocols
 
-A measurement protocol is a logical and repeatable procedure to evaluate the metrics when one use a candidate solution to solve a benchmark exercise. It ensures the successful replication of results by others. The recipe highly depends on the preferred research approach (quantitative empirical studies, qualitative empirical studies, mixed-methods studies, analytical studies, experiments, quasi-experiments, ethnographic research, phenomenological research, grounded theory, hermeneutics, case study research, action research, etc.). A measurement protocol may be solution agnostic or part of a candidate solution.
+A measurement protocol is a logical and repeatable procedure for evaluating metrics when using a candidate solution to solve a benchmark exercise. It ensures the successful replication of results by others. The recipe highly depends on the preferred research approach (quantitative empirical studies, qualitative empirical studies, mixed-methods studies, analytical studies, experiments, quasi-experiments, ethnographic research, phenomenological research, grounded theory, hermeneutics, case study research, action research, etc.). A measurement protocol may be solution agnostic or part of a candidate solution.
 
 *Guidelines:*
 
@@ -122,7 +122,7 @@ Benchmarking shall enable visitors to determine which solution is better to empl
 
 ## Meta-Analysis
 
-A meta-analysis is the analysis of all results of the benchmark for the purpose of integrating the findings. Meta-analytic results are the most trustworthy source of evidence.
+A meta-analysis integrates the findings by analysing all of the benchmark results. Meta-analytic results are the most trustworthy source of evidence.
 
 ## References
 
