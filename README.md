@@ -2,7 +2,7 @@
 
 This is a template that details the expected Minimum Viable Content of a benchmark. All minimum constitutive elements of a benchmark are formally defined in the meta-model below so as to share reproducible results.
 
-![image-20231022154230422](./images/image-20231022154230422.png)
+![image-20231022154230422](/images/image-20231022154230422.png)
 
 ## Introduction
 
