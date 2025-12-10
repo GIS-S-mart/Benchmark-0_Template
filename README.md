@@ -120,7 +120,7 @@ Benchmarking shall enable visitors to determine which solution is better to empl
 
 *Template:*
 
-## Meta-Analysis
+## Triangulation & Meta-Analysis
 
 A meta-analysis integrates the findings by analysing all of the benchmark results. Meta-analytic results are the most trustworthy source of evidence.
 
